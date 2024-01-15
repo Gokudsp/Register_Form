@@ -1,0 +1,45 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  body{
+    background-image: url("./images/images.jpg"); 
+ 
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="phone"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:black;
+    color:coral;
+    border: none;
+    cursor: pointer;
+  }
